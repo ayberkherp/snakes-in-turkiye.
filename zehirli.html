@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap" rel="stylesheet">
+    <style>
+        body { margin: 0; font-family: 'Outfit', sans-serif; background: #f4f5f4; }
+        .ust-serit { padding: 25px 60px; display: flex; justify-content: space-between; align-items: center; background: #fff; border-bottom: 1px solid #e8e8e8; }
+        .baslik-kapsayici { display: flex; align-items: center; gap: 15px; }
+        .ana-logo { height: 35px; }
+        h1 { font-size: 0.95rem; letter-spacing: 3px; color: #1a1a1a; font-weight: 700; margin: 0; }
+        .icerik-container { max-width: 900px; margin: 60px auto; background: white; padding: 50px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); }
+        .icerik-container h2 { color: #111; border-bottom: 2px solid #22c55e; display: inline-block; padding-bottom: 5px; margin-top: 40px; }
+        .yilan-listesi { display: grid; grid-template-columns: 1fr; gap: 15px; margin-top: 20px; }
+        .yilan-btn { display: flex; align-items: center; gap: 20px; padding: 15px; background: #f9f9f9; border-radius: 12px; text-decoration: none; color: #333; transition: 0.3s; border: 1px solid #eee; }
+        .yilan-btn:hover { background: #eefdf3; border-color: #22c55e; transform: translateX(10px); }
+        .yilan-thumb { width: 60px; height: 60px; border-radius: 8px; background: #ddd; object-fit: cover; }
+        .yilan-info { flex-grow: 1; }
+        .yilan-info h4 { margin: 0; font-size: 1.1rem; }
+        .yilan-info p { margin: 0; font-size: 0.85rem; color: #666; font-style: italic; }
+        .geri-don { display: block; margin-top: 40px; color: #555; text-decoration: none; font-weight: 600; }
+    </style>
+</head>
+<body>
+
+    <header class="ust-serit">
+        <div class="baslik-kapsayici">
+            <img src="logo.png" class="ana-logo">
+            <h1>TÜRKİYE HERPETOLOJİ REHBERİ</h1>
+        </div>
+    </header>
+
+    <div class="icerik-container">
+        <h1>ZEHİRLİ YILANLAR</h1>
+        
+        <h2>Engerekler</h2>
+        <div class="yilan-listesi">
+            <a href="seritli.html" class="yilan-btn"><img src="engerek.jpg" class="yilan-thumb"><div class="yilan-info"><h4>Şeritli Engerek <i>(Montivipera xanthina)</i></h4><p>Batı Türkiye'de yaygın, güçlü zehre sahip bir engerek türüdür.</p></div></a>
+            <a href="koca.html" class="yilan-btn"><img src="kocaengerek.jpeg" class="yilan-thumb"><div class="yilan-info"><h4>Koca Engerek <i>(Macrovipera lebetina)</i></h4><p>Türkiye'nin en iri ve tehlikeli engerek türlerinden biridir.</p></div></a>
+            <a href="agri.html" class="yilan-btn"><img src="agriengerek.jpg" class="yilan-thumb"><div class="yilan-info"><h4>Ağrı Engereği <i>(Montivipera raddei)</i></h4><p>Doğu Anadolu'nun yüksek kesimlerinde yaşayan nadir bir türdür.</p></div></a>
+            <a href="coruh.html" class="yilan-btn"><img src="coruhengerek.jpg" class="yilan-thumb"><div class="yilan-info"><h4>Çoruh Engereği <i>(Vipera darevskii)</i></h4><p>Çoruh vadisi çevresine endemik, oldukça nadir bir engerek.</p></div></a>
+            <a href="kucuk.html" class="yilan-btn"><img src="kucukengerek.jpg" class="yilan-thumb"><div class="yilan-info"><h4>Küçük Engerek <i>(Vipera ursinii)</i></h4><p>Çayır alanlarda yaşayan, nispeten daha küçük bir türdür.</p></div></a>
+            <a href="burunlu.html" class="yilan-btn"><img src="burunluengerek.jpeg" class="yilan-thumb"><div class="yilan-info"><h4>Burunlu Engerek <i>(Vipera ammodytes)</i></h4><p>Burnundaki karakteristik çıkıntı ile kolayca ayırt edilir.</p></div></a>
+            <a href="kafkas.html" class="yilan-btn"><img src="kafkasengerek.jpg" class="yilan-thumb"><div class="yilan-info"><h4>Kafkas Engereği <i>(Vipera kaznakovi)</i></h4><p>Karadeniz bölgesinin nemli ormanlarında yaşayan bir türdür.</p></div></a>
+            <a href="baran.html" class="yilan-btn"><img src="baranengerek.jpeg" class="yilan-thumb"><div class="yilan-info"><h4>Baran Engereği <i>(Vipera barani)</i></h4><p>Trakya ve civarında görülen, yaşam alanı daralmakta olan bir tür.</p></div></a>
+            <a href="cayir.html" class="yilan-btn"><img src="cayirengerek.jpeg" class="yilan-thumb"><div class="yilan-info"><h4>Çayır Engereği <i>(Vipera eriwanensis)</i></h4><p>Dağlık çayırlarda, yüksek rakımlarda yaşamayı tercih eder.</p></div></a>
+            <a href="wagner.html" class="yilan-btn"><img src="wagnerengerek.jpeg" class="yilan-thumb"><div class="yilan-info"><h4>Wagner Engereği <i>(Montivipera wagneri)</i></h4><p>Sadece belirli bölgelerde bulunan endemik ve nadir bir engerek.</p></div></a>
+            <a href="k_burunlu.html" class="yilan-btn"><img src="kafkasburunlu.jpeg" class="yilan-thumb"><div class="yilan-info"><h4>Kafkas Burunlu <i>(Vipera pontica)</i></h4><p>Kuzeydoğu Anadolu'ya özgü, oldukça nadir bir varyasyon.</p></div></a>
+            <a href="anadolu.html" class="yilan-btn"><img src="anadolu.jpg" class="yilan-thumb"><div class="yilan-info"><h4>Anadolu Engereği <i>(Vipera anatolica)</i></h4><p>Küçük boylu, endemik ve hassas bir türdür.</p></div></a>
+            <a href="filistin.html" class="yilan-btn"><img src="filistinengeregi.jpg" class="yilan-thumb"><div class="yilan-info"><h4>Filistin Engereği <i>(Daboia palaestinae)</i></h4><p>Güneydoğu Anadolu'nun güney kesimlerinde görülür.</p></div></a>
+        </div>
+
+        <h2>Kobralar</h2>
+        <div class="yilan-listesi">
+            <a href="col-kobrasi.html" class="yilan-btn"><img src="colkobrasi.jpeg" class="yilan-thumb"><div class="yilan-info"><h4>Çöl Kobrası <i>(Walterinnesia morgani)</i></h4><p>Geceleri aktif, pürüzsüz pullara sahip gizemli bir tür.</p></div></a>
+        </div>
+
+        <a href="index.html.html" class="geri-don">⬅ ANA SAYFAYA DÖN</a>
+    </div>
+
+</body>
+</html>

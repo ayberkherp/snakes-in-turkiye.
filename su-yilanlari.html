@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap" rel="stylesheet">
+    <style>
+        body { margin: 0; font-family: 'Outfit', sans-serif; background: #f4f5f4; }
+        .ust-serit { padding: 25px 60px; display: flex; justify-content: space-between; align-items: center; background: #fff; border-bottom: 1px solid #e8e8e8; }
+        .baslik-kapsayici { display: flex; align-items: center; gap: 15px; }
+        .ana-logo { height: 35px; }
+        h1 { font-size: 0.95rem; letter-spacing: 3px; color: #1a1a1a; font-weight: 700; margin: 0; }
+        
+        .icerik-container { max-width: 900px; margin: 60px auto; background: white; padding: 50px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); }
+        .icerik-container h2 { color: #111; border-bottom: 2px solid #3b82f6; display: inline-block; padding-bottom: 5px; margin-top: 40px; }
+        
+        .yilan-listesi { display: grid; grid-template-columns: 1fr; gap: 15px; margin-top: 20px; }
+        .yilan-btn { display: flex; align-items: center; gap: 20px; padding: 15px; background: #f9f9f9; border-radius: 12px; text-decoration: none; color: #333; transition: 0.3s; border: 1px solid #eee; }
+        .yilan-btn:hover { background: #eff6ff; border-color: #3b82f6; transform: translateX(10px); }
+        .yilan-thumb { width: 60px; height: 60px; border-radius: 8px; background: #ddd; object-fit: cover; }
+        .yilan-info { flex-grow: 1; }
+        .yilan-info h4 { margin: 0; font-size: 1.1rem; }
+        .yilan-info p { margin: 0; font-size: 0.85rem; color: #666; font-style: italic; }
+        
+        .geri-don { display: block; margin-top: 40px; color: #555; text-decoration: none; font-weight: 600; }
+    </style>
+</head>
+<body>
+
+    <header class="ust-serit">
+        <div class="baslik-kapsayici">
+            <img src="logo.png" class="ana-logo">
+            <h1>TÜRKİYE HERPETOLOJİ REHBERİ</h1>
+        </div>
+    </header>
+
+    <div class="icerik-container">
+        <h1>SU YILANLARI</h1>
+        
+        <h2>Natricinae Ailesi</h2>
+        <div class="yilan-listesi">
+            <a href="damali-su-yilani.html" class="yilan-btn">
+                <img src="thumb_su1.jpg" class="yilan-thumb">
+                <div class="yilan-info">
+                    <h4>Damalı Su Yılanı <i>(Natrix tessellata)</i></h4>
+                    <p>Su kenarlarında çok yaygındır, mükemmel bir balık avcısıdır.</p>
+                </div>
+            </a>
+            <a href="yurt-su-yilani.html" class="yilan-btn">
+                <img src="thumb_su2.jpg" class="yilan-thumb">
+                <div class="yilan-info">
+                    <h4>Yurt Su Yılanı <i>(Natrix natrix)</i></h4>
+                    <p>Başının arkasındaki karakteristik sarı/turuncu lekelerle tanınır.</p>
+                </div>
+            </a>
+            <a href="kizil-su-yilani.html" class="yilan-btn">
+                <img src="thumb_su3.jpg" class="yilan-thumb">
+                <div class="yilan-info">
+                    <h4>Kızıl Su Yılanı <i>(Natrix megalocephala)</i></h4>
+                    <p>Daha iri ve koyu renkli bir yapısı vardır, Karadeniz bölgesinde bulunur.</p>
+                </div>
+            </a>
+        </div>
+
+        <a href="zehirsiz.html" class="geri-don">⬅ ZEHİRSİZLER LİSTESİNE DÖN</a>
+    </div>
+
+</body>
+</html>

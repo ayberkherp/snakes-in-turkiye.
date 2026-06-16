@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap" rel="stylesheet">
+    <style>
+        body { margin: 0; font-family: 'Outfit', sans-serif; background: #f4f5f4; }
+        .ust-serit { padding: 25px 60px; display: flex; justify-content: space-between; align-items: center; background: #fff; border-bottom: 1px solid #e8e8e8; }
+        .baslik-kapsayici { display: flex; align-items: center; gap: 15px; }
+        .ana-logo { height: 35px; }
+        h1 { font-size: 0.95rem; letter-spacing: 3px; color: #1a1a1a; font-weight: 700; margin: 0; }
+        
+        .icerik-container { max-width: 600px; margin: 60px auto; background: white; padding: 50px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); }
+        label { font-weight: 600; color: #333; }
+        input, textarea { width: 100%; padding: 12px; margin-top: 8px; margin-bottom: 20px; border: 1px solid #ddd; border-radius: 8px; box-sizing: border-box; }
+        button { background: #22c55e; color: white; border: none; padding: 15px 30px; border-radius: 8px; cursor: pointer; font-weight: 700; width: 100%; transition: 0.3s; }
+        button:hover { background: #1da14e; }
+        
+        /* Ana sayfaya dön butonu stili */
+        .geri-don-btn { display: block; text-align: center; margin-top: 25px; color: #666; text-decoration: none; font-size: 0.9rem; font-weight: 500; transition: 0.3s; }
+        .geri-don-btn:hover { color: #000; }
+    </style>
+</head>
+<body>
+    <header class="ust-serit">
+        <div class="baslik-kapsayici">
+            <img src="logo.png" class="ana-logo">
+            <h1>TÜRKİYE HERPETOLOJİ REHBERİ</h1>
+        </div>
+    </header>
+
+    <div class="icerik-container">
+        <h1>İLETİŞİM</h1>
+        <p>Bize ulaşmak için aşağıdaki formu doldurman yeterli.</p>
+        
+        <form action="https://formspree.io/f/mwvjyjle" method="POST">
+            <label>İsim Soyisim:</label>
+            <input type="text" name="ad_soyad" placeholder="Adını ve soyadını yaz..." required>
+            
+            <label>E-posta adresin:</label>
+            <input type="email" name="email" placeholder="E-posta adresin..." required>
+            
+            <label>Mesajın:</label>
+            <textarea name="message" placeholder="Buraya mesajını yazabilirsin..." required style="height: 150px;"></textarea>
+            
+            <button type="submit">GÖNDER</button>
+        </form>
+
+        <a href="index.html.html" class="geri-don-btn">⬅ ANA SAYFAYA DÖN</a>
+    </div>
+</body>
+</html>
