@@ -1,16 +1,13 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-HMYN5SQ30V"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-HMYN5SQ30V');
-</script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HMYN5SQ30V"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-HMYN5SQ30V');
+    </script>
 
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap" rel="stylesheet">
@@ -21,9 +18,13 @@
         .ana-logo { height: 35px; }
         h1 { font-size: 0.95rem; letter-spacing: 3px; color: #1a1a1a; font-weight: 700; margin: 0; }
         
-        .menu-ve-arama { display: flex; align-items: center; gap: 60px; }
+        .menu-ve-arama { display: flex; align-items: center; gap: 30px; }
         .menu-linkleri a { text-decoration: none; color: #555; font-size: 0.85rem; font-weight: 500; }
         
+        /* Yeni Gözlem Butonu Stili */
+        .gozlem-butonu { background-color: #1c5234; color: #fff !important; padding: 10px 18px; border-radius: 6px; font-size: 0.85rem; font-weight: 700; text-decoration: none; transition: 0.3s; }
+        .gozlem-butonu:hover { background-color: #143d26; }
+
         /* Kartlar */
         #ana-ekran { display: flex; justify-content: center; gap: 50px; margin-top: 80px; flex-wrap: wrap; }
         .kategori-kart { position: relative; width: 280px; cursor: pointer; transition: 0.3s; }
@@ -41,6 +42,9 @@
             <h1>TÜRKİYE HERPETOLOJİ REHBERİ</h1>
         </div>
         <div class="menu-ve-arama">
+            <nav class="menu-linkleri">
+                <a href="harita.html" class="gozlem-butonu">Gözlem Haritasını Aç</a>
+            </nav>
             <nav class="menu-linkleri"><a href="iletisim.html">İLETİŞİM</a></nav>
         </div>
     </header>
